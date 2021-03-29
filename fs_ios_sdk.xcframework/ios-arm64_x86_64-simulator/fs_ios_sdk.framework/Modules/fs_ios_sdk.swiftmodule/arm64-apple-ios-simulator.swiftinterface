@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name fs_ios_sdk
+import Foundation
+import SocketIO
+import Swift
+import UIKit
+import WebKit
+@objc @_hasMissingDesignatedInitializers public class FSFullGame : UIKit.UIView {
+  public var userToken: Swift.String?
+  public var pushToken: Swift.String?
+  public var FSApiKeyName: Swift.String?
+  public init(frame: CoreGraphics.CGRect?, userToken: Swift.String?, pushToken: Swift.String?, FSApiKeyName: Swift.String?)
+  @objc override dynamic public func layoutSubviews()
+  public func setUserToken(userToken: Swift.String)
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+}
