@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name fsiossdk
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name fsiossdk
 import AuthenticationServices
 import Foundation
 import SocketIO
@@ -12,8 +12,9 @@ import _Concurrency
   @_Concurrency.MainActor(unsafe) public var userToken: Swift.String?
   @_Concurrency.MainActor(unsafe) public var pushToken: Swift.String?
   @_Concurrency.MainActor(unsafe) public var FSApiKey: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var extras: [Swift.String : Swift.String]?
   @_Concurrency.MainActor(unsafe) public var gameId: Swift.String
-  @_Concurrency.MainActor(unsafe) public init(id: Swift.String?, userToken: Swift.String? = "", pushToken: Swift.String? = "", FSApiKey: Swift.String? = "", frame: CoreGraphics.CGRect? = CGRect())
+  @_Concurrency.MainActor(unsafe) public init(id: Swift.String?, userToken: Swift.String? = "", pushToken: Swift.String? = "", FSApiKey: Swift.String? = "", extras: [Swift.String : Swift.String]? = [:], frame: CoreGraphics.CGRect? = CGRect())
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) public func openPage(completion: @escaping (Swift.String) -> ())
   @_Concurrency.MainActor(unsafe) @objc public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithAuthorization authorization: AuthenticationServices.ASAuthorization)
