@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		neqSaQcClEIyQzjrbwzIU53QplY=
+		YEyl/RNgp0M+3hwlcutNCNFJNJs=
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jylkip/bZLNTCoTXDj5hUmoeslI=
+		6c+tCiPDpZMIEf7U5anyPbsBUt8=
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jylkip/bZLNTCoTXDj5hUmoeslI=
+		6c+tCiPDpZMIEf7U5anyPbsBUt8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0gz/VOxIX5ZKm+j/a+khx5hSLOpuMwSlH2o1ZYheUo=
+			4SOPWOVI2memdBq4+6q2Ph8CQGjGmyGA1DqSqMbD5Sk=
 			</data>
 		</dict>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftdoc</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0gz/VOxIX5ZKm+j/a+khx5hSLOpuMwSlH2o1ZYheUo=
+			4SOPWOVI2memdBq4+6q2Ph8CQGjGmyGA1DqSqMbD5Sk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
