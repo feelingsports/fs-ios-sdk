@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "SocketIO", url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.0.0")),
-        .package(name: "Facebook", url: "https://github.com/facebook/facebook-ios-sdk", .upToNextMinor(from: "12.3.2"))
+        .package(name: "Facebook", url: "https://github.com/facebook/facebook-ios-sdk", .upToNextMinor(from: "13.2.0"))
     ],
     targets: [
         .target(
