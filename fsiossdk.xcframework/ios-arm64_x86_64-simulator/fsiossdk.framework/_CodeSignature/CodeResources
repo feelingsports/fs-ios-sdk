@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gQXfM3uBNwrf0KV8FGESrS8kqCM=
+		JL1ZuEinrdqHKnDYlDkgA57Li3U=
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		gQXfM3uBNwrf0KV8FGESrS8kqCM=
+		JL1ZuEinrdqHKnDYlDkgA57Li3U=
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N7AdIul4cUD4I1HSFthYvZHQ5hw=
+		IJtA3OGlcqqGeLTs116du0qUdug=
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/fsiossdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		N7AdIul4cUD4I1HSFthYvZHQ5hw=
+		IJtA3OGlcqqGeLTs116du0qUdug=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JghHqgPylD4xtaFk1z8v/UrxxzRRt3xEhwv9nl+pkMw=
+			CFiYp0uepnWXkt///dH7Kkxq5u29WfLtc9/jRYAQk0c=
 			</data>
 		</dict>
 		<key>Modules/fsiossdk.swiftmodule/arm64.swiftdoc</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JghHqgPylD4xtaFk1z8v/UrxxzRRt3xEhwv9nl+pkMw=
+			CFiYp0uepnWXkt///dH7Kkxq5u29WfLtc9/jRYAQk0c=
 			</data>
 		</dict>
 		<key>Modules/fsiossdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtrKVZt26A8oy4Yk/IJXrH0IF9c+hwlXSiykz+YN/TQ=
+			yjbAz66SpuS2Po+Sxt1ZmrvZzwohdc0az9uTpMdWaxI=
 			</data>
 		</dict>
 		<key>Modules/fsiossdk.swiftmodule/x86_64.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtrKVZt26A8oy4Yk/IJXrH0IF9c+hwlXSiykz+YN/TQ=
+			yjbAz66SpuS2Po+Sxt1ZmrvZzwohdc0az9uTpMdWaxI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
