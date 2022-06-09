@@ -209,20 +209,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class WKUserContentController;
+@class WKScriptMessage;
 @class NSCoder;
 @class ASAuthorizationController;
 @class ASAuthorization;
 
 SWIFT_CLASS("_TtC8fsiossdk10FSFullGame")
-@interface FSFullGame : UIView <ASAuthorizationControllerDelegate>
+@interface FSFullGame : UIView <ASAuthorizationControllerDelegate, WKScriptMessageHandler>
+- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (void)authorizationController:(ASAuthorizationController * _Nonnull)controller didCompleteWithAuthorization:(ASAuthorization * _Nonnull)authorization SWIFT_AVAILABILITY(ios,introduced=13.0);
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class WKUserContentController;
-@class WKScriptMessage;
 
 SWIFT_CLASS("_TtC8fsiossdk10FSMiniGame")
 @interface FSMiniGame : UIView <WKScriptMessageHandler>

@@ -8,7 +8,8 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FSFullGame : UIKit.UIView, AuthenticationServices.ASAuthorizationControllerDelegate {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FSFullGame : UIKit.UIView, AuthenticationServices.ASAuthorizationControllerDelegate, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor(unsafe) public var userToken: Swift.String?
   @_Concurrency.MainActor(unsafe) public var pushToken: Swift.String?
   @_Concurrency.MainActor(unsafe) public var FSApiKey: Swift.String?
@@ -19,6 +20,7 @@ import _Concurrency
   @_Concurrency.MainActor(unsafe) public func openPage(completion: @escaping (Swift.String) -> ())
   @available(iOS 13.0, *)
   @_Concurrency.MainActor(unsafe) @objc public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithAuthorization authorization: AuthenticationServices.ASAuthorization)
+  @_Concurrency.MainActor(unsafe) public var actionCallback: ((_ id: Swift.String) -> Swift.Void)?
   @objc deinit
 }
 extension fsiossdk.FSMiniGame : UIKit.UIScrollViewDelegate {
