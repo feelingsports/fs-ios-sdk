@@ -1,4 +1,0 @@
-framework module fsiossdk {
-  header "fsiossdk-Swift.h"
-  requires objc
-}
