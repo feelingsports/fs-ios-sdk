@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:6.2
 import PackageDescription
 
 let package = Package(
@@ -9,22 +9,20 @@ let package = Package(
     products: [
         .library(
             name: "fsiossdk",
-            targets: ["fsiossdk_wrapper"])
-    ],
-    dependencies: [
-        .package(name: "SocketIO", url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "16.1.0"))
+            targets: ["fsiossdk_wrapper"]
+        )
     ],
     targets: [
         .target(
             name: "fsiossdk_wrapper",
             dependencies: [
-                .product(name: "SocketIO", package: "SocketIO"),
                 .target(name: "fsiossdk")
             ],
-            path: "Sources/Wrapper",
-            publicHeadersPath: ""
+            path: "Sources/Wrapper"
         ),
         .binaryTarget(
             name: "fsiossdk",
-            path: "fsiossdk.xcframework")
-    ])
+            path: "fsiossdk.xcframework"
+        )
+    ]
+)
